@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &738911789843355368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5902700604271623603}
+  - component: {fileID: 9112890595657348550}
+  m_Layer: 0
+  m_Name: ItemShopManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5902700604271623603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738911789843355368}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -47.648483, y: 183.77087, z: 0.09105724}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9112890595657348550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738911789843355368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21522107b16f9b24dab3c3723d49c91c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  helmetSlot: {fileID: 0}
+  armorSlot: {fileID: 0}
+  bootsSlot: {fileID: 0}
+  ringSlot: {fileID: 0}
+  emptySlotSprite: {fileID: 21300000, guid: 84487d73ca4b791498332d8f6858417f, type: 3}
+  helmet:
+  - {fileID: 11400000, guid: eb9132fad336fbe40be50bc2e04d7fa2, type: 2}
+  - {fileID: 11400000, guid: 479f32949b33e9a488817b3bbe887e77, type: 2}
+  - {fileID: 11400000, guid: 5570d63cea7356548b81278942200f74, type: 2}
+  - {fileID: 11400000, guid: 22319355fe937284c97e3b5f08d191b2, type: 2}
+  armor:
+  - {fileID: 11400000, guid: ca86b632eda519049b9d64840f4bcc72, type: 2}
+  - {fileID: 11400000, guid: 960080365f4cf444dae81748bd585631, type: 2}
+  - {fileID: 11400000, guid: fd24df938aa443a4db238c1dd5530332, type: 2}
+  - {fileID: 11400000, guid: 5906976c3212d13458002c21133a6a32, type: 2}
+  boots:
+  - {fileID: 11400000, guid: a7bf4d9cacc0c4643bc519fda39cdb03, type: 2}
+  - {fileID: 11400000, guid: f7d47eb19075c9b4ca7c1de621a5b80a, type: 2}
+  - {fileID: 11400000, guid: 5ed9161619a99744ab639c41353c1e2f, type: 2}
+  - {fileID: 11400000, guid: 69174547f889dc34686235519c58c50e, type: 2}
+  ring:
+  - {fileID: 11400000, guid: 9134b502c2cc95c4babe0da6cf52b80d, type: 2}
+  - {fileID: 11400000, guid: 99a5b1613a856b640a73210a04c682ec, type: 2}
+  - {fileID: 11400000, guid: a48a260bb8a355f498fe8fd6d8b16a40, type: 2}
+  - {fileID: 11400000, guid: b377b0b454dab7545b4a5d79e6098834, type: 2}
+  itemButtonPrefab: {fileID: 2803921252793943810, guid: 31cfb8562fb69a2458773ebae219eeb8, type: 3}
+  contentParent: {fileID: 0}
+  borderDefault: {fileID: 21300000, guid: 085185b08a40a924985bc0e4176edea6, type: 3}
+  borderSelected: {fileID: 21300000, guid: 5eda94a9dcf71e445ad17e3c065d1460, type: 3}
+  borderEquipped: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  actionButton: {fileID: 0}
+  itemInfoPanel: {fileID: 0}
+  canvas: {fileID: 0}
+  itemStatUI: {fileID: 0}
+  baseStats: {fileID: 0}
+  currentEquipedItems: []

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a042176b43b32da4b9c1af517a04bed6, type: 3}
+  m_Name: HelmetItemData 1
+  m_EditorClassIdentifier: 
+  itemID: H2
+  itemType: 0
+  itemName: Skyfeather Helm
+  itemIcon: {fileID: 1950309956, guid: 407e8c4126023e94eb915663826469d2, type: 3}
+  itemPrice: 400
+  itemDescription: Said to be crafted for messengers of the royal court. The feather
+    symbolizes swiftness and
+  isOwned: 0
+  isEquipped: 0
+  healthValue: 350

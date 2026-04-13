@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d9df6613f308f84881a5f83c79a958a, type: 3}
+  m_Name: Map_Test_EnemyConfig Test
+  m_EditorClassIdentifier: 
+  mapAssetTable: {fileID: 11400000, guid: 0b68489ddcf735c4a9e1bf6e43e555f8, type: 2}
+  enemyPools:
+  - id: Boss1
+    prefab: {fileID: -4670481217554125228, guid: 5dbf9f62220f7d54c81e3b0d5f060920, type: 3}
+    count: 1

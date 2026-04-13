@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df9e2b9b9304354cb9a4d2a5925ff3c, type: 3}
+  m_Name: Move 1000M
+  m_EditorClassIdentifier: 
+  id: 002
+  title: Traveller
+  description: Move 1000m
+  type: 3
+  targetValue: 1000
+  currentValue: 0
+  reward: 100
+  isClaimed: 0

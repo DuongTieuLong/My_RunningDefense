@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a042176b43b32da4b9c1af517a04bed6, type: 3}
+  m_Name: HelmetItemData 2
+  m_EditorClassIdentifier: 
+  itemID: H3
+  itemType: 0
+  itemName: Arcane Hat
+  itemIcon: {fileID: -747642252, guid: 407e8c4126023e94eb915663826469d2, type: 3}
+  itemPrice: 700
+  itemDescription: "A wizard\u2019s hat imbued with a faint magical aura. Its tip
+    twitches whenever mana stirs"
+  isOwned: 0
+  isEquipped: 0
+  healthValue: 600

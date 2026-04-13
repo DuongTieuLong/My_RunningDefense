@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d9df6613f308f84881a5f83c79a958a, type: 3}
+  m_Name: Map_3_EnemyConfig
+  m_EditorClassIdentifier: 
+  mapAssetTable: {fileID: 11400000, guid: 05fc3defde186344d9fb588e6a30870a, type: 2}
+  enemyPools:
+  - id: Normal1
+    prefab: {fileID: 633254013148713671, guid: 738ae8852fd833e48984a454e5b6d554, type: 3}
+    count: 30
+  - id: Normal2
+    prefab: {fileID: 6110476853884720902, guid: 9991eb8a81315674b9600729fe2642f7, type: 3}
+    count: 30
+  - id: Special1
+    prefab: {fileID: 5430021421775674532, guid: 987d1fe261964bb4db45e5361ebae97d, type: 3}
+    count: 25
+  - id: Special2
+    prefab: {fileID: 2415731913029398971, guid: a4f80dfb604cd6343b08133ba4b3b536, type: 3}
+    count: 25
+  - id: Boss1
+    prefab: {fileID: 7480175172441782717, guid: 8d785fc0d75461f479ce2a67119608ad, type: 3}
+    count: 1
+  arrowBulletPrefab: {fileID: 6770949669181758615, guid: 2e97656ecaa5c534eaffe67cf34bbf5f, type: 3}
+  magicBulletPrefab: {fileID: 8322523214484775623, guid: 73eb6cc45abf1be4ea34b4f4ec7752bf, type: 3}
+  arrowBulletCount: 125
+  magicBulletCount: 125

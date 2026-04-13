@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e507c41998e0244f953a60d87a5b61e, type: 3}
+  m_Name: Map_3
+  m_EditorClassIdentifier: 
+  blockOptions:
+  - prefab: {fileID: 5169362044379623714, guid: 7a03e96a84ac91c4abaa5522d67289f9, type: 3}
+    probability: 1
+  decorationOptions:
+  - prefab: {fileID: 9084186255233428779, guid: daafbb87391e0b440aad7fe56d9ebe18, type: 3}
+    count: 30
+  - prefab: {fileID: 1494676776529385495, guid: 0860427e5e2c9ff4eb5fb0df4532c4d1, type: 3}
+    count: 30

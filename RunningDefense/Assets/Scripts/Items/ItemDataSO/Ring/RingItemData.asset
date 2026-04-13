@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c075277f936b234bb4d36a2db2a605f, type: 3}
+  m_Name: RingItemData
+  m_EditorClassIdentifier: 
+  itemID: R1
+  itemType: 3
+  itemName: Stone Band
+  itemIcon: {fileID: -1611633915, guid: 407e8c4126023e94eb915663826469d2, type: 3}
+  itemPrice: 250
+  itemDescription: "A plain stone ring. Common among novices, but believed to ground
+    one\u2019s spirit in battle."
+  isOwned: 0
+  isEquipped: 0
+  atkValue: 15
